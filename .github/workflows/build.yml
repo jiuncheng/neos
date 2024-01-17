@@ -2,7 +2,7 @@ name: Build-Neos
 on:
   push: 
     branches: 
-        - 'master'
+        - 'next'
   schedule:
     - cron: '0 16 * * *'
   workflow_dispatch: 
