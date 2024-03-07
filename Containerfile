@@ -1,4 +1,4 @@
-FROM quay.io/fedora/fedora-kinoite:rawhide AS neos-next
+FROM quay.io/fedora/fedora-kinoite:40 AS neos-next
 
 COPY usr /usr
 
